@@ -3,7 +3,7 @@ import os
 import datetime
 
 # 打开数据库连接
-db = pymysql.connect(host='172.27.48.181', user='search', password='search@zyfax.com', db='invest')
+db = pymysql.connect(host='ip', user='user', password='password', db='dbName')
 #db = pymysql.connect(host='10.3.100.110', user='mysqluser', password='mysqluser@zyxr.com')
 
 # 使用cursor()方法获取操作游标
